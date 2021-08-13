@@ -1,6 +1,6 @@
 Amazon Web Scraper
 
-To run this app locally fork and clone this repository, run npm install to install the required dependencies.
+To run this app locally fork and clone this repository, run 'npm install' to install the required dependencies.
 
 Sign up for an API key and verified sender at [https://app.sendgrid.com/]
 
