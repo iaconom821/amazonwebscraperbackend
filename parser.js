@@ -34,7 +34,7 @@ async function checkPrice () {
 function sendEmail(subject, body) {
     const email = {
         to: 'nifek88163@asmm5.com', 
-        from: 'iaconom821@gmail.com',
+        from: process.env.YOUR_EMAIL,
         subject: subject,
         text: body,
         html: body
