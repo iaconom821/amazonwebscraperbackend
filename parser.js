@@ -1,6 +1,5 @@
 // "priceblock_ourprice" || "priceblock_saleprice"
 
-// "https://www.amazon.com/OFIKA-Ergonomic-Adjustable-Computer-Executive/dp/B08P77XH3H/"
 require('dotenv').config()
 const sgMail = require('@sendgrid/mail')
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
